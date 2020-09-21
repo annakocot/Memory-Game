@@ -1,10 +1,10 @@
 # Pusheen Memory Game
 
 ## Table of contents
-* [General info] (#general-info)
-* [Technologies] (#technologies)
-* [Sources] (#sources)
-* [Setup] (#setup)
+* [General info]
+* [Technologies] 
+* [Sources]
+* [Setup]
 
 ## General info
 This project is simple memory game. Created in order to consolidate knowledge from the frontend developer course at the Akademia Kodu.
