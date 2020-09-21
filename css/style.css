@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.game-board {
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
+    height: 100vh;
+    width: 100vh;
+}
+
+.game-tile {
+    flex-grow: 1;
+    height: 25%;
+    width: 25%;
+    border: 4px solid #fff;
+    border-radius: 10px;
+}
+
+@media (min-width:1200px) {
+    .game-board {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .game-board {
+        width: 55%;
+    }
+}
+
+@media (max-width:1200px) {
+    .game-board {
+        width: 100%;
+    }
+
+    .game-tile {
+        width: 50%;
+        height: 50%;
+    }
+}
+@media (max-width: 900px){
+    .game-tile{
+        width: 35%;
+        height:35%;
+    }
+}
+
+.burger {
+    background-image: url(../img/burger.jpg);
+    background-size: cover;
+}
+
+.cookie {
+    background-image: url(../img/cookie.jpg);
+    background-size: cover;
+}
+
+
+.cupcake {
+    background-image: url(../img/cupcake.jpg);
+    background-size: cover;
+}
+
+.dinosaur {
+    background-image: url(../img/dinosaur.jpg);
+    background-size: cover;
+}
+
+.mermaid {
+    background-image: url(../img/mermaid.jpg);
+    background-size: cover;
+}
+
+.milord {
+    background-image: url(../img/milord.jpg);
+    background-size: cover;
+}
+
+.pug {
+    background-image: url(../img/pug.jpg);
+    background-size: cover;
+}
+
+.unicorn {
+    background-image: url(../img/unicorn.jpg);
+    background-size: cover;
+}
+
+.hidden {
+    background-image: url(../img/cover.jpg);
+   
+    background-size: cover;
+}
+
+.off {
+    background-color: #fcf0e4;
+    background-image: none;
+}
