@@ -2,13 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     display: flex;
     justify-content: center;
-
 }
 
 .game-board {
@@ -25,35 +23,6 @@ body {
     width: 25%;
     border: 4px solid #fff;
     border-radius: 10px;
-}
-
-@media (min-width:1200px) {
-    .game-board {
-        width: 55%;
-    }
-}
-
-@media (min-width: 1400px) {
-    .game-board {
-        width: 55%;
-    }
-}
-
-@media (max-width:1200px) {
-    .game-board {
-        width: 100%;
-    }
-
-    .game-tile {
-        width: 50%;
-        height: 50%;
-    }
-}
-@media (max-width: 900px){
-    .game-tile{
-        width: 35%;
-        height:35%;
-    }
 }
 
 .burger {
@@ -99,11 +68,35 @@ body {
 
 .hidden {
     background-image: url(../img/cover.jpg);
-   
     background-size: cover;
 }
 
 .off {
     background-color: #fcf0e4;
     background-image: none;
+}
+
+@media (min-width: 1200px) {
+    .game-board {
+        width: 55%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .game-board {
+        width: 100%;
+    }
+
+    .game-tile {
+        width: 25%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .game-tile{
+        width: 40%;
+    }
 }
