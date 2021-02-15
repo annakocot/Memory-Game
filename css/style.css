@@ -23,6 +23,8 @@ body {
     width: 25%;
     border: 4px solid #fff;
     border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .burger {
@@ -76,25 +78,23 @@ body {
     background-image: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1000px) {
     .game-board {
         width: 55%;
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     .game-board {
         width: 100%;
     }
 
     .game-tile {
         width: 25%;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 }
 
-@media (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 680px) {
 
     .game-tile{
         width: 40%;
